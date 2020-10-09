@@ -1,7 +1,7 @@
 {
-  "name": "grunt-neuterall",
+  "name": "@pr/grunt-neuterall",
   "description": "Applies neutering to a hierarchy of required files",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "",
   "author": {
     "name": "Niall Fallon",
@@ -9,17 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "none"
+    "url": "https://github.com/PrimeRevenue/grunt-neuterall"
   },
-  "bugs": {
-    "url": ""
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "/blob/master/LICENSE-MIT"
-    }
-  ],
+  "license": "MIT",
   "main": "Gruntfile.js",
   "engines": {
     "node": ">= 0.8.0"
@@ -28,15 +20,19 @@
     "test": "grunt test"
   },
   "devDependencies": {
-    "grunt-contrib-jshint": "~0.1.1",
+    "grunt": "0.4.1",
+    "grunt-cli": "^1.3.2",
     "grunt-contrib-clean": "~0.4.0",
-    "grunt-contrib-nodeunit": "~0.1.2",
-    "grunt": "~0.4.1"
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-nodeunit": "~0.1.2"
   },
   "peerDependencies": {
     "grunt": "~0.4.1"
   },
   "keywords": [
     "gruntplugin"
-  ]
+  ],
+  "dependencies": {
+    "global": "^4.4.0"
+  }
 }
